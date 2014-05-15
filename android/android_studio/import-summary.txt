@@ -1,0 +1,111 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* android_studio/
+* android_studio/.idea/
+* android_studio/.idea/.name
+* android_studio/.idea/compiler.xml
+* android_studio/.idea/copyright/
+* android_studio/.idea/copyright/profiles_settings.xml
+* android_studio/.idea/encodings.xml
+* android_studio/.idea/misc.xml
+* android_studio/.idea/modules.xml
+* android_studio/.idea/scopes/
+* android_studio/.idea/scopes/scope_settings.xml
+* android_studio/.idea/vcs.xml
+* android_studio/.idea/workspace.xml
+* android_studio/app/
+* android_studio/app/build.gradle
+* android_studio/app/src/
+* android_studio/app/src/main/
+* android_studio/app/src/main/AndroidManifest.xml
+* android_studio/app/src/main/java/
+* android_studio/app/src/main/java/com/
+* android_studio/app/src/main/java/com/mila/
+* android_studio/app/src/main/java/com/mila/financialcontrol/
+* android_studio/app/src/main/java/com/mila/financialcontrol/activities/
+* android_studio/app/src/main/java/com/mila/financialcontrol/activities/AddOperation.java
+* android_studio/app/src/main/java/com/mila/financialcontrol/activities/CreateOperation.java
+* android_studio/app/src/main/java/com/mila/financialcontrol/model/
+* android_studio/app/src/main/java/com/mila/financialcontrol/model/Conta.java
+* android_studio/app/src/main/java/com/mila/financialcontrol/model/Operation.java
+* android_studio/app/src/main/res/
+* android_studio/app/src/main/res/drawable-hdpi/
+* android_studio/app/src/main/res/drawable-hdpi/ic_launcher.png
+* android_studio/app/src/main/res/drawable-mdpi/
+* android_studio/app/src/main/res/drawable-mdpi/ic_launcher.png
+* android_studio/app/src/main/res/drawable-xhdpi/
+* android_studio/app/src/main/res/drawable-xhdpi/ic_launcher.png
+* android_studio/app/src/main/res/drawable-xxhdpi/
+* android_studio/app/src/main/res/drawable-xxhdpi/ic_launcher.png
+* android_studio/app/src/main/res/layout/
+* android_studio/app/src/main/res/layout/activity_add_operation.xml
+* android_studio/app/src/main/res/layout/activity_create_operation.xml
+* android_studio/app/src/main/res/menu/
+* android_studio/app/src/main/res/menu/add_operation.xml
+* android_studio/app/src/main/res/values-sw600dp/
+* android_studio/app/src/main/res/values-sw600dp/dimens.xml
+* android_studio/app/src/main/res/values-sw720dp-land/
+* android_studio/app/src/main/res/values-sw720dp-land/dimens.xml
+* android_studio/app/src/main/res/values-v11/
+* android_studio/app/src/main/res/values-v11/styles.xml
+* android_studio/app/src/main/res/values-v14/
+* android_studio/app/src/main/res/values-v14/styles.xml
+* android_studio/app/src/main/res/values/
+* android_studio/app/src/main/res/values/dimens.xml
+* android_studio/app/src/main/res/values/strings.xml
+* android_studio/app/src/main/res/values/styles.xml
+* android_studio/build.gradle
+* android_studio/gradle/
+* android_studio/gradle/wrapper/
+* android_studio/gradle/wrapper/gradle-wrapper.jar
+* android_studio/gradle/wrapper/gradle-wrapper.properties
+* android_studio/gradlew
+* android_studio/gradlew.bat
+* android_studio/local.properties
+* android_studio/settings.gradle
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:+
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
